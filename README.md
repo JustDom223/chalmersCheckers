@@ -1,0 +1,1 @@
+This is a game variant played on the old chinese checkers board. It is a game that i used to play with my family and I thought I would recreate it so that i could play it with my dad and uncle again seeing as I am overseas
