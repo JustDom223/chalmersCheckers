@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+.board-row {
+    display: flex;
+    justify-content: center;
+}
+
+.board-cell {
+    width: 40px; /* Adjust cell size as needed */
+    height: 40px; /* Adjust cell size as needed */
+    border-radius: 50%;
+}
