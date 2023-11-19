@@ -5,7 +5,7 @@
 }
 body{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 6fr 1fr;
 }
 
 .board{
@@ -18,11 +18,28 @@ body{
 }
 
 .board-cell {
-    width: 4vh; /* Adjust cell size as needed */
-    height: 4vh; /* Adjust cell size as needed */
+    width: 4vw; /* Adjust cell size as needed */
+    height: 4vw; /* Adjust cell size as needed */
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.piece{
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5vw;
+    height: 3.5vw;
+}
+
+.p1{
+    background-color: blue;
+
+}
+
+.p2{
+    background-color: orange;
+}
