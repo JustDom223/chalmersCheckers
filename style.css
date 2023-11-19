@@ -3,6 +3,14 @@
     padding: 0;
     border: 1px solid red;
 }
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.board{
+    grid-column: 2/3;
+}
 
 .board-row {
     display: flex;
@@ -10,7 +18,11 @@
 }
 
 .board-cell {
-    width: 40px; /* Adjust cell size as needed */
-    height: 40px; /* Adjust cell size as needed */
+    width: 4vh; /* Adjust cell size as needed */
+    height: 4vh; /* Adjust cell size as needed */
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
