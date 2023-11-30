@@ -27,7 +27,7 @@ let board = [
 // for (i = 0; i < board.length; i++){
     //     console.log(board[i].length)
     // }
-boardPositionElements = document.querySelectorAll('#boardCell')
+boardPositionElements = document.querySelectorAll('.boardCell')
 
 boardPositionElements.forEach(element => {
     element.addEventListener('click', () =>{
