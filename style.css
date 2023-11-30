@@ -17,7 +17,7 @@ body{
     justify-content: center;
 }
 
-.board-cell {
+.boardCell {
     width: 4vw; /* Adjust cell size as needed */
     height: 4vw; /* Adjust cell size as needed */
     border-radius: 50%;
