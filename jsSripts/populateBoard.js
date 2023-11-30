@@ -22,7 +22,6 @@ let board = [
     [null, null, null, null, null, null, null, null, null, null, {  }, {  }, {  }, null, null, null, null],
     [null, null, null, null, null, null, null, null, null, null, null, {  }, {  }, null, null, null, null],
     [null, null, null, null, null, null, null, null, null, null, null, null, {  }, null, null, null, null],
-
    ];
 
 // for (i = 0; i < board.length; i++){
