@@ -3,6 +3,14 @@ function isValidCell(row, col) {
     // Logic to determine if a cell at (row, col) is a valid, playable cell
     // You'll need to define this based on your board's layout
 }
+// player constructor
+function Player(name, colour){
+    this.name = name;
+    this.colour = colour;
+}
+
+const player1 = Player('Dom', 'red')
+const player2 = Player('NotDom', 'blue')
 
 let board = [
     [null, null, null, null, {  }, null, null, null, null, null, null, null, null, null, null, null, null],//A4-4
@@ -37,7 +45,19 @@ boardPositionElements.forEach(element => {
         // board[row][col][1]
         element.innerText = piece
         // Now you can use row and col to reference the correct position in gameBoard
-        // console.log(`Element at row ${row}, col ${col} was clicked`);
+        console.log(`Element at row ${row}, col ${col} was clicked`);
 
     })
 })
+
+function populateBoard(playerOne, playerTwo){
+    for(i = 0; i<board.length; i ++){
+        for(j = 0; j<board[i].length; j++){
+            if(board[i][j] !== null){
+                board[i][j] = {player1}
+                console.log('i made it')
+            }
+        }
+    };
+    console.log(board)
+}
