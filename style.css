@@ -33,6 +33,7 @@ body{
     align-items: center;
     width: 3.5vw;
     height: 3.5vw;
+    background-color: blue;
 }
 
 .player1{
@@ -43,3 +44,4 @@ body{
 .player2{
     background-color: orange;
 }
+
